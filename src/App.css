@@ -28,11 +28,38 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Title{
+  text-decoration: underline;
+  color: rgb(187, 247, 5);
+  font-style: italic;
+}
+
+.Quote{
+  font-style: italic;
+  font-size: 20px;
+  color:rgb(0, 0, 255);
+  background-color: rgb(10, 192, 143);
+  border:rgb(64, 255, 47) 6px solid;
+  padding: 1.2rem;
+  border-radius: 25px;
+}
+
+.Author{
+  font-style: italic;
+  font-size: 20px;
+  color:rgba(235, 118, 9, 0.989);
+  background-color: rgb(80, 255, 208);
+  border:rgb(230, 0, 255) 5px solid;
+  padding: 1.2rem;
+  border-radius:  25px;
+}
+
+.Generator{
+  background-color: rgb(10, 180, 183);
+  color:rgba(204, 34, 0, 0.986);
+  border: rgb(255, 241, 47) 5px solid;
+  padding : 1.2rem;
+  border-radius:  25px;
+  font-size: 50px;
+  font-weight: bold;
 }
